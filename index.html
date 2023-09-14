@@ -28,9 +28,193 @@
     <br />
     <a href="/hello.html">Go to html</a>
 
+    <!--<img src="https://m.media-amazon.com/images/I/41e3YGKg-3L._AC_UF1000,1000_QL80_.jpg" alt="notebook"/>-->
+    <img src="/notebook.jpeg" alt="notebook"/> <!--alt is written to write a name of image that what kind of image that is-->
+    <!-- to resize the image we can use the attribute height -->
+
+    <hr>
+    <br>
+    <b>BOLD</b>
+
+    <br>
+    <b>Italic</b>
+
+    <br>
+    <b>Underlined</b>
+
+    <hr>
+    <br>
+    <p><u>This is a paragraph</u></p>
+
+    <br>
+    <big>This tag shows big text</big>
+    <hr>
+    <small>This tag shows small text</small>\
+
+    <hr>
+    <p>H<sub>2</sub>o</p>
+
+    <p>A<sup>n</sup>+ B</p>
+
+    <pre>I am a girl        . I am a student
+        My name is Sanghamitra.
+    </pre>
 
     <!--paragraph tag. -->
     <!--Those content we need to display on the web page those will written in between body tag.-->
+
+
+
+    <header>
+        <h1>
+            My Portfolio
+        </h1>
+    </header>
+
+    <main>
+        <section>education: B.Tech (Civil) | School(VSK)</section>
+        <section>experience: SDE</section>
+
+        <!-- <a href="https://google.com" target="_main">Google</a> -->
+        <a href="https://google.com"targe="_main">
+            <img src="https://blog.hubspot.com/hubfs/image8-2.jpg" 
+            alt="Google"
+            height="100"></a>
+        <aside>this is an ad</aside>
+
+
+       <div>
+        <p>Hello World</p>
+        <p>Namaste</p>
+        <p>Hi</p>
+    </div> 
+
+    <span>Bye</span>
+
+    <!-- To make a list of fruits
+    ul-unordered list where data will show in bullet points
+    li-list -->
+    <!-- <ul>
+        <li>Apple</li>
+         To make a sublist means to add more information in apple 
+        <ul>
+            <li>color: Red</li>
+            <li>season: Winter</li>
+        </ul>
+        <li>Mango</li>
+        <ul>
+            <li>color: Yellow</li>
+            <li>season: Summer</li>
+        </ul>
+        <li>Litchi</li>
+    </ul> -->
+
+    <!-- <ol>
+        <li>Apple</li>
+         To make a sublist means to add more information in apple
+        <ol type="i">
+            <li>color: Red</li>
+            <li>season: Winter</li>
+        </ol>
+        <li>Mango</li>
+        <ol type="i">
+            <li>color: Yellow</li>
+            <li>season: Summer</li>
+        </ol>
+        <li>Litchi</li>
+    </ol> -->
+
+
+    <!-- To create a table -->
+    <table>
+        <caption>Student Data</caption>
+        <thead>
+         <tr> 
+
+            <!-- To make the column name "Information" --> 
+            <th colspan="2">Information</th> 
+            <!--colspan = column name will be placed in center 
+            <th>Roll No</th> -->
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Sanghamitra</td>
+            <td>1345</td>
+        </tr>
+
+        <tr>
+            <td>Sweety</td>
+            <td>3456</td>
+        </tr>
+
+        <tr>
+            <td>saina</td>
+            <td>1234</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <h4>Registration Form</h4>
+    <input type="text" placeholder="username">
+    <br><br>
+    <input type="password" placeholder="password">
+    <br><br>
+    
+    <!-- input type -> what type of input we need to give
+    placeholder -> before giving any input the string which is written in placeholder that will print -->
+
+    <h5>Select Your Class</h5>
+    <label for ="101">
+    <input type="radio" value="class XI" name="class" id="101">class XI
+</label>
+<br><br>
+<label for ="102">
+    <input type="radio" value="class XII" name="class" id="102">class XII
+</label>
+<!-- if we use label and keep the same name as class then i can click on "class" text also that option i can select otherwise that option i can select only if when i click on that checkbox
+    radio -> you can select maximum one option at a time -->
+
+    
+    <h5>Select your fav subjects</h5>
+    <br>
+    <label for="Math">
+        <input type="checkbox" value="Math" name="subject" id="101">Math
+    </label>
+    <br>
+
+    <label for="Phy">
+        <input type="checkbox" value="Phy" name="subject" id="102">Phy
+    </label>
+    <br>
+
+    <label for="Chem">
+        <input type="checkbox" value="Chem" name="subject" id="103">Chem
+    </label>
+    <br>
+
+    <label for="CS">
+        <input type="checkbox" value="CS" name="subject" id="104">CS
+    </label>
+    <br>
+
+    <br><br>
+
+    Select your city
+    <select name="city">
+        <option value="Cuttack">Cuttack</option>
+        <option value="Bhubaneswar">Bhubaneswar</option>
+        <option value="Bhadrak">Bhadrak</option>
+        <option value="Puri">Puri</option>
+    </select>
+    <!-- Select is used for choose any option from drop down case for any form  -->
+
+    <br><br>
+    <textarea name="feedback" id="101" placeholder="please give some feedback here"></textarea>
+
+    </main>
+    <footer></footer>
 </body>
 </html>
 
